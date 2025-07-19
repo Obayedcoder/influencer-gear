@@ -71,12 +71,18 @@
 .container3{
     max-width:1110px;
     margin:100px auto;
-    display:grid;
-    grid-template-columns: repeat(7, 1fr);
-    gap:15px;
     box-shadow: 0px 4px 0px 0px rgba(170, 170, 170, 0.226);
+   text-align: center;
+   display:flex;
+
 }
 
+.content3_1 img,
+.content3_2 img{
+    margin-left:55px;
+}
+
+   
 
 
 
@@ -87,7 +93,8 @@
     }
     .container1,
     .container2,
-    .content1_2 ul{
+    .content1_2 ul,
+    .container3{
         flex-direction: column;
         gap:20px;
         align-items: center;
@@ -103,9 +110,12 @@
         flex-direction: column-reverse;
     }
     .container3{
-    grid-template-columns: repeat(4, auto);
-    justify-content: space-around;
-    align-items: center;
-    }
+    max-width: 500px;
 } 
+.content3_1 img,
+.content3_2 img{
+    margin-left:25px;
+}
+
     
+}
